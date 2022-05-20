@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/8f7462340c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script>
+      () => {
+        return '3f8b5ae5a72bddc41ee71186057aca5957ee9fb35c0f6ff9d4008aef78ed5125';
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Point de vue Gestionnaire</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h1>Point de vue Gestionnaire</h1>
+        </div>
+        <div class="list">
+          <a href="#produits">Produits</a>
+          <a href="#tables">Tables</a>
+        </div>
+
+        <a class="btn btn-primary" href="./barman.html">Barman</a>
+        <a class="btn btn-primary" href="./">Accueil</a>
+      </nav>
+    </header>
+
+    <main>
+      <h3>Authentification</h3>
+      <div>
+        <div class="form-group">
+          <label>Mot de passe</label>
+          <input type="password" name="password" />
+        </div>
+        <a type="button" id="get-requests" class="btn btn-container btn-validate">Valider</a>
+      </div>
+
+      <h3>Produits</h3>
+      <section id="produits"></section>
+
+      <h3>Tables</h3>
+      <section id="tables"></section>
+    </main>
+  </body>
+  <script src="../js/gestionnaire.js"></script>
+</html>

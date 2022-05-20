@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/8f7462340c.js" crossorigin="anonymous"></script>
+    <title>Point de vue page d'accueil</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h1>Point de vue page d'accueil</h1>
+        </div>
+
+        <a class="btn btn-primary" href="./barman.html">Barman</a>
+        <a class="btn btn-primary" href="./gestionnaire.html">Gestionnaire</a>
+      </nav>
+    </header>
+
+    <main>
+      <h3>Veuillez scanner le QR code d'une table pour commencer votre commande !</h3>
+      <hr />
+      <div class="faq">
+        <h4>F.A.Q</h4>
+
+        <div class="questions">
+          <div class="question">
+            <div class="title">
+              <h4>Comment scanner le QR code ?</h4>
+              <div class="icon">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="content hidden">
+              <div class="info">
+                <h4>Iphone</h4>
+                <ul>
+                  <li>Étape 1 : ouvrez l’appareil photo par défaut de l’iPhone.</li>
+                  <li>Étape 2 : procédez à la mise au point sur le flashcode.</li>
+                  <li>Étape 3 : accédez à la page de votre table.</li>
+                </ul>
+              </div>
+
+              <hr />
+
+              <div class="info">
+                <h4>Android</h4>
+                <ul>
+                  <li>
+                    Étape 1 : rendez-vous sur le Play Store pour installer une application
+                    permettant de lire les QR codes.
+                  </li>
+                  <li>Étape 2 : cherchez et installez l'application "Google Lens".</li>
+                  <li>Étape 3 : dirigez l’appareil photo vers le flashcode.</li>
+                  <li>
+                    Étape 4 : attendez jusqu’à l’apparition d’un point bleu au milieu du QR code.
+                  </li>
+                  <li>Étape 5 : appuyez sur ce disque bleu pour ouvrir le contenu.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="title">
+              <h4>Je ne dispose pas de QR code à ma table</h4>
+              <div class="icon">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="content hidden">
+              <h4>Cliquer sur la case qui correspond à la table ou vous êtes</h4>
+              <div id="tables"></div>
+            </div>
+          </div>
+
+          <div class="question">
+            <div class="title">
+              <h4>Je n'ai pas reçu de mail</h4>
+              <div class="icon">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="content hidden">
+              <h4>Vérifier dans votre boite mail la catégorie [indésirable] ou [SPAM]</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="../js/index.js"></script>
+</html>

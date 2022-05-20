@@ -1,0 +1,35 @@
+body {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+.form-group {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  input {
+    padding: 1rem;
+  }
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "gestion-commandes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass -w scss -o css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulh-afk/gestion-commandes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulh-afk/gestion-commandes/issues"
+  },
+  "homepage": "https://github.com/paulh-afk/gestion-commandes#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
